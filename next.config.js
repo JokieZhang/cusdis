@@ -5,7 +5,7 @@ module.exports = {
       {
         source: "/:path*",
         headers: [
-          { key: "Access-Control-Allow-Origin", value: "https://blog.vmaitian.com" },
+          { key: "Access-Control-Allow-Origin", value: "*" },
         ],
       },
     ]
